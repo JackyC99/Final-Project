@@ -21,12 +21,10 @@ define growth = 0
 define coins = 100
 define earned = 0
 
-#The image is Robert E.O Speedwagon from Jojo's Bizare Adventure:Battle Tendency"
 image boss = "Speedwagon.png"
 image black = "#000"
 image bg tiled = Tile("tile.jpg")  
 
-#The following image is from https://www.artstation.com/artwork/L2qdXv
 image Cashier = "Cashier.png"
 image black = "#000"
 image bg tiled = Tile("tile.jpg")
@@ -62,7 +60,6 @@ label start:
     
 
     label cycle:
-        # Link to the artwork and artist https://www.pinterest.com/pin/520658406905935252/
         scene bg house
         "Day [day]"
         if growth < 25:
@@ -72,8 +69,7 @@ label start:
         elif growth >= 50 and growth < 75:
             show sap3
         elif growth >= 75 and growth < 99:
-            #https://pngtree.com/freepng/anime-illustration-material-of-trees_5768054.html
-            show sap4
+            
 
         e "Your tree is [growth]\% finish growing"
         e "Your water level is at [water]"
@@ -104,7 +100,6 @@ label start:
     jump options
 
     label accomplish:
-        #Link to artwaork and artist https://www.artstation.com/artwork/18vzW8
         scene bg bedroom
         e "You slept"
         if water <= 25:
@@ -139,7 +134,6 @@ label options:
         
 
     label office:
-        #Link to the original work https://br.pinterest.com/pin/661325526520685779/
         scene bg office 
         e "You should get to work"
         $flip = random.choice(["H","T"])
@@ -166,7 +160,6 @@ label options:
                  jump night
         
     label extra:
-        #Link to the background https://www.pxfuel.com/en/desktop-wallpaper-pofyg
         scene bg bossroom
         show boss
 
@@ -189,7 +182,6 @@ label options:
         $bonus = 0
      
     label night:
-       #Link to original art https://www.pinterest.ph/pin/517491813429754936/?amp_client_id=CLIENT_ID%28_%29&mweb_unauth_id=&simplified=true
        scene bg street
        e "Good job"
        e "You earned [earned] coins for the day"
@@ -203,7 +195,6 @@ label options:
                  jump store
     
     label store:
-        #Link to the artwork and artist https://www.pinterest.com/pin/small-grocery-store-by-vuihuynh--763500943095489340/
         scene bg store
         
         show Cashier  
@@ -245,7 +236,6 @@ label options:
         jump accomplish
 
 label end:
-    #Treasue Tree Adam from "One Piece"
     scene bg TreasueTree
     e "Congrats, your tree is fully grown"
     e "and it only took you [day] days to grow it."
@@ -265,7 +255,7 @@ label end:
             jump start
 
 label bad_end:
-    e "Since you refused"
+    e "If you get caught,"
     e "There is nothing I can do, so"
     $ MainMenu(confirm=False)()
 
