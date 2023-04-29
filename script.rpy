@@ -64,11 +64,11 @@ label start:
         "Day [day]"
         if growth < 25:
             show sapling 
-        elif growth >= 25 and growth < 50:
+        if growth >= 25 and growth < 50:
             show sap2
-        elif growth >= 50 and growth < 75:
+        if growth >= 50 and growth < 75:
             show sap3
-        elif growth >= 75 and growth < 99:
+        if growth >= 75 and growth < 99:
             
 
         e "Your tree is [growth]\% finish growing"
