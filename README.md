@@ -1,3 +1,5 @@
+Please read the About before starting the game 
+
 Final-Project is a simple simulation game where your main objective is to grow a tree.
 
 In the game, there is a water counter and a growth counter and it will only annonuced your progress with the growth and how much water your tree have.(Both are percentage)
