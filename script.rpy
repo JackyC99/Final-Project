@@ -1,9 +1,16 @@
- # The script of the game goes in this file.
+  # The script of the game goes in this file.
 
 init:
 
      python:
            import random
+define config.name = _('Tree Owner')
+
+define gui.show_name = True
+
+define config.version = "1.0"
+
+define gui.about = _("Created by Jacky Chen(Freshman).\n\nI do not own most of the image and photos used in this project.")
 
 define e = Character("Narrator")
 define b = Character("Boss")
