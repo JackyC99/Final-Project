@@ -69,7 +69,7 @@ label start:
         if growth >= 50 and growth < 75:
             show sap3
         if growth >= 75 and growth < 99:
-            
+            show spa4
 
         e "Your tree is [growth]\% finish growing"
         e "Your water level is at [water]"
