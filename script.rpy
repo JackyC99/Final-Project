@@ -10,7 +10,7 @@ define b = Character("Boss")
 define c = Character("clerk")
 define water = 75
 define day = 1
-define growth = 25
+define growth = 0
 define coins = 100
 define earned = 0
 
