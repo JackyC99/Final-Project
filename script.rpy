@@ -236,7 +236,7 @@ label options:
         jump accomplish
 
 label end:
-    scene bg TreasueTree
+    scene bg TreasureTree
     e "Congrats, your tree is fully grown"
     e "and it only took you [day] days to grow it."
     e "That must be some sort of record."
