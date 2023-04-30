@@ -69,7 +69,7 @@ label start:
         if growth >= 50 and growth < 75:
             show sap3
         if growth >= 75 and growth < 99:
-            show spa4
+            show sap4
 
         e "Your tree is [growth]\% finish growing"
         e "Your water level is at [water]"
@@ -236,7 +236,7 @@ label options:
         jump accomplish
 
 label end:
-    scene bg TreasueTree
+    scene bg TreasureTree
     e "Congrats, your tree is fully grown"
     e "and it only took you [day] days to grow it."
     e "That must be some sort of record."
@@ -248,11 +248,12 @@ label end:
           $ growth = 25
           jump cycle
          
-         "No":
+        "No":
           $ MainMenu(confirm=False)()
 
         "Credits":
           e "Please read the about for info."
+          $ MainMenu(confirm=False)()
 
 label bad_end:
     e "If you get caught,"
