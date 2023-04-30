@@ -1,4 +1,4 @@
-  # The script of the game goes in this file.
+ # The script of the game goes in this file.
 
 init:
 
@@ -10,7 +10,7 @@ define gui.show_name = True
 
 define config.version = "1.0"
 
-define gui.about = _("Created by Jacky Chen(Freshman).\n\nI do not own most of the image and photos used in this project.")
+define gui.about = _("Created by Jacky Chen(Freshman).\n\nI do not own most of the image and photos used in this project.\n\nAll the credits for the image are on Github, in ReadMe\nhttps://github.com/JackyC99/Final-Project.")
 
 define e = Character("Narrator")
 define b = Character("Boss")
