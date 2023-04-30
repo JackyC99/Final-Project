@@ -12,6 +12,7 @@ There is also a store where you can spend your coin on. However currently there 
 
 Its a very easy code where the hard part comes from coding within ren.py. As some aspect are different compare to coding with normal python.
 It was a fun project, I did learn hoe to make a game using ren.py.
+However, I didn't get the chance to add random events that can occur at random. I added a shop system as planned but there is no use for it compare to what  wanted.
 
 
 Credit for the images used in the project
