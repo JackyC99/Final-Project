@@ -236,7 +236,7 @@ label options:
         jump accomplish
 
 label end:
-    scene bg TreasureTree
+    scene bg TreasueTree
     e "Congrats, your tree is fully grown"
     e "and it only took you [day] days to grow it."
     e "That must be some sort of record."
@@ -248,11 +248,11 @@ label end:
           $ growth = 25
           jump cycle
          
-        "No":
-          return
+         "No":
+          $ MainMenu(confirm=False)()
 
         "Credits":
-            jump start
+          e "Please read the about for info."
 
 label bad_end:
     e "If you get caught,"
