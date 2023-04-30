@@ -1,5 +1,7 @@
 Please read the About before starting the game 
 
+Also, video walkthrough here https://youtu.be/_K2cn-W-qqo
+
 Final-Project is a simple simulation game where your main objective is to grow a tree.
 
 In the game, there is a water counter and a growth counter and it will only annonuced your progress with the growth and how much water your tree have.(Both are percentage)
@@ -8,6 +10,8 @@ There is also an option to go to work to earn coins to water the plant.(I did pl
 
 There is also a store where you can spend your coin on. However currently there do nothing, its just a way to spend your coins. I did plan for the store to sell usful stuff that benefits with growing the tree.
 
+Its a very easy code where the hard part comes from coding within ren.py. As some aspect are different compare to coding with normal python.
+It was a fun project, I did learn hoe to make a game using ren.py.
 
 
 Credit for the images used in the project
