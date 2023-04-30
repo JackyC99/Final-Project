@@ -74,7 +74,7 @@ label start:
         e "Your tree is [growth]\% finish growing"
         e "Your water level is at [water]"
         e "You currently have [coins] coins on you."
-        if growth == 100:
+        if growth >= 100:
             jump end
         e "Morning."
         e "What would you like to do for the day"
