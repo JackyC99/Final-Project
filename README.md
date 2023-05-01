@@ -19,15 +19,19 @@ Credit for the images used in the project
 
 main_menu image is called "Tree of life" by Lordeeas on https://www.deviantart.com/lordeeas/art/Tree-of-Life-211703590
 
+Charcters:
+
 boss is "Robert E.O Speedwagon" from "Jojo's Bizare Adventure:Battle Tendency"
 
 Cashier is titled "Ms.Cahier by Gouble Art on https://www.artstation.com/artwork/L2qdXv
 
-the house background is by Lawriett Black on https://www.pinterest.com/pin/520658406905935252/
-
 sap4(the tree) is from https://pngtree.com/freepng/anime-illustration-material-of-trees_5768054.html
 
 The other 3 sap were made by me(not the best art)
+
+Background:
+
+the house background is by Lawriett Black on https://www.pinterest.com/pin/520658406905935252/
 
 The bedroom is titled "Chill room" by ChristianMS on https://www.artstation.com/artwork/18vzW8
 
